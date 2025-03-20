@@ -12,8 +12,8 @@ const JogadoresController = () => import('../app/controllers/jogadores_controlle
 import Player from '../app/models/player.js'
 
 
-   router.get('rindex', [JogadoresController, 'index'])
-   router.post('rstore', [JogadoresController, 'store'])
+   router.get('/rindex', [JogadoresController, 'index'])
+   router.post('/rstore', [JogadoresController, 'store'])
 
 
   router.get('/jogadores/:id', [JogadoresController, 'show']) // Buscar um jogador pelo ID
