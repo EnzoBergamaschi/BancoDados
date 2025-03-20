@@ -1,12 +1,12 @@
 {
-  "name": "ADONIS API",
+  "name": "adonisapi",
   "version": "0.0.0",
   "private": true,
   "type": "module",
   "license": "UNLICENSED",
-  "scripts": {
-    "start": "node ./bin/server.js",
+  "scripts": { 
     "build": "node ace build",
+    "start": "node ./build/bin/server.js",
     "dev": "node ace serve --hmr",
     "test": "node ace test",
     "lint": "eslint .",
