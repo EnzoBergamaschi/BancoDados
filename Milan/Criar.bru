@@ -1,0 +1,23 @@
+meta {
+  name: Criar
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3333/rstore
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Messi",
+    "posicao": "Atacante",
+    "titular": true,
+    "altura": 1.70,
+    "idade": 36
+  }
+  
+  
+}
